@@ -1,0 +1,47 @@
+body {
+  background: url('./image/bg1.jpeg');
+  background-size: 100%;
+}
+.btn._main {
+  background-color: rgb(20, 187, 131);
+  border-radius: 50%;
+  box-shadow: 4px 4px 35px 36px rgba(255, 255, 255, 0.2);
+  display: block;
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 80px;
+}
+.main {
+  background: url('./image/main.jpeg') no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+  display: none;
+  height: 750px;
+  left: 35%;
+  position: absolute;
+  padding: 13px;
+  top: 5%;
+  width: 500px; 
+}
+.info {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  height: 344px;
+  justify-content: space-around;
+  width: 475px; 
+}
+.lever {
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.token {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  word-break: break-all;
+}
